@@ -1,6 +1,6 @@
 // 与えられた引数numを二乗する
 const ten = (num) => {
-    console.log(num * num);
+    return num * num;
 }
 
-ten(10);
+console.log(ten(10));
